@@ -1,0 +1,67 @@
+{
+  "name": "react-base",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/react-components": "^3.1.3",
+    "@apollo/react-hoc": "^3.1.3",
+    "@apollo/react-hooks": "^3.1.3",
+    "@apollo/react-ssr": "^3.1.3",
+    "apollo-boost": "^0.4.4",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link": "^1.2.13",
+    "apollo-link-error": "^1.1.12",
+    "apollo-link-http": "^1.5.16",
+    "axios": "^0.19.0",
+    "formik": "^1.5.4",
+    "graphql": "14.3.1",
+    "graphql-tag": "^2.10.1",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-apollo": "^3.1.3",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-inlinesvg": "^1.1.7",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.0.1",
+    "react-youtube": "^7.9.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.2.0",
+    "styled-reset": "^2.0.11",
+    "styled-system": "^5.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test:push": "CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {}
+  },
+  "devDependencies": {
+    "@apollo/react-testing": "^3.1.3",
+    "@babel/core": "^7.6.4",
+    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-links": "^5.2.5",
+    "@storybook/addons": "^5.2.5",
+    "@storybook/react": "^5.2.5",
+    "husky": "^3.0.9"
+  }
+}

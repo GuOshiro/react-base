@@ -1,0 +1,16 @@
+export const BG = 'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);';
+export const BLUE_DARK = '#0e0b5b';
+export const BLUE_GRADIENT = '-webkit-radial-gradient(circle,rgba(31,82,153,1),rgba(0,7,89,1))';
+export const BLUE_TRANSPARENT = '#f4f4f9';
+export const BLUE_WHITE = '#295198';
+export const GRAY = '#6d7581';
+export const GRAY_DARK = '#303030';
+export const GRAY_MEDIUM = '#ededed';
+export const GRAY_WHITE = '#fff';
+export const GRAY_WHITE_TRANSPARENT = 'rgba(255, 255, 255, 0.3)';
+export const ORANGE_DARK = '#ed4c5b';
+export const ORANGE_GRADIENT = 'linear-gradient(112deg, #ed4c5b 0%, #f17b36 100%);';
+export const ORANGE_TRANSPARENT = '#f9f7f4';
+export const ORANGE_LIGHT = '#f17b36';
+export const TRANSPARENT = 'transparent';
+export const WHITE = '#fff';
